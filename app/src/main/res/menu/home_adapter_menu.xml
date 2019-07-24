@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/sharedocument"
+        android:title="Share Document" />
+
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/printdocument"
+        android:title="Print Document" />
+
+
+
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/downloaddocumentaspdf"
+        android:title="Download Document as PDf" />
+
+
+
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/downloadoriginalformate"
+        android:title="Download Original Formate" />
+
+</menu>

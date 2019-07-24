@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/size_30"
+        android:layout_height="match_parent">
+
+        <!--  <de.hdodenhof.circleimageview.CircleImageView
+              android:layout_width="@dimen/size_100dp"
+              android:layout_height="@dimen/size_100dp"
+              android:id="@+id/toolBarPicture"
+              android:layout_gravity="center"
+              android:layout_marginTop="@dimen/size_100dp"
+              android:src="@drawable/dummy"
+              />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageview_account_profile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/dummy"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="@dimen/size_200dp"
+                android:layout_height="@dimen/size_200dp"
+                android:src="@drawable/photo_camera"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@+id/imageview_account_profile"
+                android:layout_marginBottom="50dp"
+                android:id="@+id/floatingActionButton"
+                android:layout_alignRight="@+id/imageview_account_profile" />
+
+        </RelativeLayout>
+
+
+        <android.support.design.widget.TextInputEditText
+            android:drawableRight="@drawable/userr"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/size_40"
+            android:hint="User Name"
+            android:layout_height="@dimen/size_50" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:hint="User Password"
+            android:layout_marginTop="@dimen/size_40"
+            android:drawableRight="@drawable/mail"
+            android:layout_height="@dimen/size_50"
+            />
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/size_100dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/ihome"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/navigation_gifts"
+        android:icon="@drawable/ishare"
+        tools:ignore="MenuTitle" />
+
+    <item
+        tools:ignore="MenuTitle"
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/idownload"
+       />
+
+    <item
+        tools:ignore="MenuTitle"
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/iupload"
+       />
+
+</menu>

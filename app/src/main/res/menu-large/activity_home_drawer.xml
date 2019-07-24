@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:textSize="@dimen/size_30"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ihome"
+            android:title="@string/menu_home" />
+        <item
+            android:textSize="@dimen/size_30"
+            android:id="@+id/browsefolder"
+            android:icon="@drawable/ifolder"
+            android:title="@string/browse_folder" />
+      <!--  <item
+            android:id="@+id/favourite"
+            android:icon="@drawable/star"
+            android:title="@string/Favourite" />-->
+        <item
+            android:textSize="@dimen/size_30"
+            android:id="@+id/changepassword"
+            android:icon="@drawable/ilock"
+            android:title="@string/change_password" />
+
+        <item
+            android:textSize="@dimen/size_30"
+            android:id="@+id/changelanguage"
+            android:icon="@drawable/iglobal"
+            android:title="@string/change_language" />
+
+        <item
+            android:textSize="@dimen/size_30"
+            android:id="@+id/notification"
+            android:icon="@drawable/inotification"
+            android:title="@string/notification" />
+
+        <item
+            android:textSize="@dimen/size_30"
+            android:id="@+id/settings"
+            android:icon="@drawable/isetting"
+            android:title="@string/settings" />
+
+        <item
+            android:textSize="@dimen/size_30"
+            android:id="@+id/logout"
+            android:icon="@drawable/ilogout"
+            android:title="@string/logout" />
+    </group>
+
+  <!--  <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+-->
+</menu>
